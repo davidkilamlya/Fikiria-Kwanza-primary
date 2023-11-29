@@ -1,0 +1,113 @@
+.Admission-page-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  // background-color: rgba($color: #000000, $alpha: 0.6);
+
+  overflow: hidden;
+}
+
+.admissionPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding-bottom: 5vh;
+
+  padding-top: 5vh;
+}
+
+.admission-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  // background-color: var(--white-color);
+  padding: 20px 30px 20px 30px;
+  backdrop-filter: 2;
+  border-radius: 10px;
+  justify-content: center;
+
+  gap: 20px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 4px;
+  width: 100%;
+
+  input {
+    width: 100%;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    outline: none;
+    font-weight: 600;
+    color: var(--secondary-color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 15px;
+    &::placeholder {
+      color: var(--secondary-color);
+      text-align: center;
+    }
+    height: 5vh;
+  }
+  span {
+    font-weight: 600;
+  }
+}
+.admission-button {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.admissionPage-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  overflow: hidden;
+}
+
+.admission-page-title-h1,
+.title-focus {
+  color: #000;
+}
+.admission-page-title {
+  display: flex;
+
+  justify-self: start;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+  padding: 20px;
+}
+.title-focus {
+  color: var(--secondary-color);
+  padding: 10px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+// .logo {
+//   width: 40px;
+//   height: 40px;
+// }
+
+.admission-page-title-h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

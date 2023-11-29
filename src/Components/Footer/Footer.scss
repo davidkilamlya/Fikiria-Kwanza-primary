@@ -1,0 +1,94 @@
+.footer {
+  // background-color: #DAE4FF;
+  background-image: url("https://ik.imagekit.io/fa4kq1qqo/Fikiria_Kwanza_Academy/Assets/Primary/JOH_0006.jpg?updatedAt=1701187148232");
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  // height: 30vh;
+}
+.footer-quick-logo {
+  width: 80px;
+  height: 80px;
+}
+.footer-quick-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100%;
+  background-color: rgba($color: #10497e, $alpha: 0.8);
+  color: var(--white-color);
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 20px 40px;
+  gap: 20px;
+}
+.icon-title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#about {
+  color: var(--white-color) !important;
+  // font-weight: bold;
+}
+
+.contacts-links {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+justify-content: center;
+  gap: 20px;
+}
+.footer-quick-links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.quick-icon {
+  width: 20px;
+  height: 20px;
+}
+.contact-icons {
+  display: flex;
+  // flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.top-footer {
+  display: flex;
+  // align-items: space-around;
+  // justify-content: space-around;
+  align-items: center;
+  gap: 70px;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90vw;
+  // @media screen and (max-width: 800px) {
+  //   flex-direction: column;
+  //   gap: 20px;
+  // }
+}
+
+.phone-footer {
+  color: #fff !important;
+}
+
+.follow-title{
+  font-size: 36px;
+}

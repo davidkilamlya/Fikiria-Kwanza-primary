@@ -1,0 +1,32 @@
+.announcement-container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  border-bottom: 1px solid #efefef;
+  overflow: hidden;
+  .announcement-link {
+    text-decoration: none;
+
+    .AnnouncementBanner {
+      max-width: 100%;
+      animation: morph 3s 5s infinite ease-in-out;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  @keyframes morph {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.03, 0.8);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+}

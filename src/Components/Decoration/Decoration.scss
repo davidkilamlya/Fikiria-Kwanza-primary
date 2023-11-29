@@ -1,0 +1,34 @@
+.decoration-container {
+  height: 60vh;
+  width: 100%;
+  background-color: #ddd;
+  align-items: center;
+  justify-content: center;
+  //   isolation: isolate;
+
+  display: flex;
+}
+
+.decoration-container::before {
+  content: "";
+  position: absolute;
+  transform: skewX(30deg);
+  transform: skewY(3deg);
+
+  background-color: #4898b1;
+  width: 100%;
+  height: 3vh;
+ 
+}
+ 
+.decoration-container::after {
+  content: "";
+  position: absolute;
+  align-self: flex-end;
+  background-color: #fff;
+  border-radius: 50px;
+  transform: skewX(30deg);
+  top: 10vh;
+  width: 50%;
+  height: 30vh;
+}

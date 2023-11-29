@@ -1,0 +1,38 @@
+.today-quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  align-self: center;
+  transition: all 2s ease-in-out;
+
+  padding: 20px 10px 10px 10px;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 2s ease-in-out;
+    flex-direction: column;
+    background-color: var(--white-color);
+    border-radius: 5px;
+
+    box-shadow: 8px 2px 10px #ddd;
+    padding: 10px;
+    width: 90%;
+    gap: 15px;
+    .quote {
+      font-size: 19px;
+
+      text-align: center;
+    }
+    .name {
+      font-size: 15px;
+      color: gray;
+      font-style: italic;
+
+      // font-weight: 700;
+    }
+  }
+}

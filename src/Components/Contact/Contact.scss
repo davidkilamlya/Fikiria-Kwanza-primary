@@ -1,0 +1,56 @@
+.contact {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  
+  background-color: #fff;
+  gap: 40px;
+  border-bottom: 1px solid #efefef;
+  // position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.call {
+  text-decoration: none;
+}
+
+.contact-social {
+  display: flex;
+  gap: 15px;
+
+  div,
+  .call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    .icon {
+      color: var(--secondary-color);
+    }
+  }
+}
+.contact-phone-email {
+  display: flex;
+  // align-self: flex-end;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  padding: 5px 2px 5px 2px;
+  width: 100%;
+}
+
+.contact-details {
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+}
+.facebook,
+.instagram {
+  display: none;
+}

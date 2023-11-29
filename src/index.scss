@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+:root {
+  --font-base: "DM Sans", sans-serif;
+
+  --primary-color: #487aff;
+  // --secondary-color: #487aff;
+  --secondary-color:#062888;
+
+  --subsidiary-color: #a41e22;
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;
+  --gray-color: #6b7688;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+  --border-color: #f1f3f8;
+  --action-color: #10497e;
+  --additionalBackground--color: #d4e4ff;
+  --additionalBackgroundRed--color: #ec5252;
+  --title-color: #333;
+  --pageHeader-color: #4898b1;
+  --pdf-color: #ef2929;
+}
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  scroll-margin-right: 90px;
+}
+
+/* Target the scroll bar */
+::-webkit-scrollbar {
+  width: 0px; /* Set the width of the scroll bar */
+}
+
+/* Track (the area behind the thumb) */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Set the background color */
+}
+
+/* Thumb (the draggable scrolling handle) */
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color); /* Set the color of the thumb */
+  border-radius: 2px; /* Add rounded corners to the thumb */
+}
+
+/* On hover, the thumb color */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Set the color of the thumb on hover */
+}
+
+/* Corner (between the vertical and horizontal scroll bars) */
+::-webkit-scrollbar-corner {
+  background-color: #f1f1f1; /* Set the background color */
+}
+
+.btn-loader {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  text-align:center;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  border-right-color: transparent;
+  animation: spin 0.5s linear 0s infinite forwards;
+}
+
+.submit-button {
+  width: 200px;
+  padding: 5px 20px;
+  border-radius: 8px;
+  gap: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  //background-color: var(--secondary-color);
+
+  @media screen and (max-width: 468px) {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .btn-loader {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    border-right-color: transparent;
+    animation: spin 0.5s linear 0s infinite forwards;
+  }
+
+  span {
+    font-size: 15px;
+    // text-shadow: 1px 1px 2px #000;
+  }
+}

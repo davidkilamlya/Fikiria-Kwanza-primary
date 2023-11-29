@@ -1,0 +1,38 @@
+.testimonial {
+  padding-top: 7vh;
+  gap: 20px;
+  display: flex;
+  width: 100vw;
+  align-items: center !important;
+  background-color: var(--white-color);
+
+  justify-content: center !important;
+  flex-direction: column !important;
+  align-self: center !important;
+  padding-bottom: 40px;
+}
+.today-quote_testimonial {
+  //   background-color: var(--white-color);
+  font-weight: 600;
+  //   color: var(--secondary-color);
+  width: 50vw;
+}
+.name-test {
+  color: grey;
+  text-align: center;
+  display: flex;
+  align-self: center;
+}
+.testimonial-message-container{
+  max-width:300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  .testimonial-name-container{
+    display: flex;
+    align-items: center;justify-content: center;
+  }
+  .testimonial-message{
+    text-align: center;
+  }
+}

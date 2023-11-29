@@ -1,0 +1,27 @@
+.breadCumbs-icon {
+  color: #fff;
+  font-weight: 600;
+  justify-self: flex-start;
+  font-size: 17px;
+}
+
+.breadCumbs-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2px;
+  padding-left: 60px;
+}
+.breadCumbs-pathname,.breadcumbs-link {
+  color: var(--white-color);
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: capitalize;
+  &:hover {
+    color: var(--white-color);
+    // background-color: #9999;
+  }
+}
+.path-next {
+  color: var(--white-color);
+}

@@ -1,0 +1,109 @@
+.academics {
+  padding: 6vh 20px 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  // background-color: #214dc5;
+
+  gap: 30px;
+}
+
+.academics-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 30px;
+}
+
+.academic-card-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  gap: 20px;
+  // @media screen and (max-width: 900px) {
+  //   display: flex;
+  //   flex-direction: column;
+  // }
+}
+.academic-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  max-width: 500px;
+  justify-content: center;
+   box-shadow: 2px 3px 20px #ddd;
+
+  background-color: var(--white-color);
+
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  padding: 15px;
+  gap: 20px;
+}
+.academic-card-image {
+  width: 100%;
+  height: 35vh;
+}
+.academic-card-description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.academic-description {
+  text-align: flex-start;
+  width: 100%;
+
+  font-size: 16px;
+  font-weight: 500;
+}
+.academic-card-title {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 0.4s, height 1s;
+  font-weight: 600;
+  &:hover {
+    background-color: transparent;
+    font-weight: 900;
+
+    .academic-title {
+      background-color: #000;
+      opacity: 1;
+    }
+  }
+}
+.academic-title {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.academic-card-title-link {
+  text-decoration: none;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.4s ease-in-out;
+}
+.academic-button-link {
+  // color: #fff;
+  text-decoration: none;
+}
+.academic-button {
+  color: #fff;
+}

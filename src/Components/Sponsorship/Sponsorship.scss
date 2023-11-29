@@ -1,0 +1,89 @@
+.sponsorship {
+  width: 100vw;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  align-items: center;
+  justify-content: center;
+  // overflow-y: hidden;
+  .sponsorship-container {
+    margin: 60px 0;
+    // overflow-y: hidden;
+
+    border-radius: 8px;
+    width: 100%;
+    max-width: 920px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .header-banner {
+      width: 100%;
+      border-radius: 8px;
+      height: 150px;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .sponsorship-submit-button-container {
+      width: 100%;
+      display: flex;
+
+      justify-content: flex-end;
+      button {
+        width: 200px;
+        padding: 5px 0px;
+        border-radius: 8px;
+        gap: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        justify-content: center;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background-color: var(--secondary-color);
+        @media screen and (max-width: 468px) {
+          width: 100%;
+        }
+        .btn-loader {
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          border: 2px solid #333;
+          border-right-color: transparent;
+          animation: spin 0.5s linear 0s infinite forwards;
+        }
+        span {
+          font-size: 15px;
+          // text-shadow: 1px 1px 2px #000;
+        }
+      }
+    }
+    .apply_logo_div {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 30%;
+        // height: 500px;
+        // aspect-ratio: 9/7;
+      }
+    }
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

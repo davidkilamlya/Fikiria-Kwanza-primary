@@ -1,0 +1,28 @@
+.pdfPreview {
+    overflow: hidden;
+  
+    .pdfPreview-image-container {
+      object-fit: cover;
+  
+      .pdfPreview-pdf-image {
+        object-fit: cover;
+        height: 200px;
+        width: 100%;
+      }
+    }
+  
+    .pdfPreview-icon-title-container {
+      display: flex;
+      padding: 20px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background-color: var(--lightGray-color);
+      .pdfPreview-icon-container {
+        .pdfPreview-icon {
+          font-size: 30px;
+          color: var(--pdf-color);
+        }
+      }
+    }
+  }

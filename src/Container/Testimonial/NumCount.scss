@@ -1,0 +1,60 @@
+.numcount {
+  // height: 0vh;
+  // padding: 30px;
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  align-items: center;justify-content: center;
+  div{
+    width: 80%;
+  padding: 7px;
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // gap: 5px;
+
+  justify-content: center;
+  }
+}
+.studentCount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .count {
+    color: var(--white-color);
+    // font-weight: 600;
+    transition: all 2s ease-in-out;
+  }
+}
+.numcount-container {
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  // flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.counterIcon-image {
+  font-size: 50px;
+  color: #fff;
+  // background-color: red;
+}
+
+.counter-title {
+  background-color: #fff !important;
+  border-radius: 5px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px;
+  .counter-title-h1 {
+    width: 80px;
+    // padding: 20px;
+    text-align: center;
+    color: var(--secondary-color);
+  }
+}
